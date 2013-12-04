@@ -12,6 +12,8 @@ namespace MvcWebRole1.Controllers
 		// GET api/values
 		public IEnumerable<string> Get()
 		{
+		string f="aaa";
+		string v="asdad";
 			return new string[] { "value1", "value2" };
 		}
 
